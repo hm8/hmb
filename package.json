@@ -1,7 +1,7 @@
 {
   "name": "hmb",
   "description": "The best project ever.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/hm8/hmb",
   "author": {
     "name": "leoxie",
@@ -14,10 +14,12 @@
   "bugs": {
     "url": "https://github.com/hm8/hmb/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/hm8/hmb/blob/master/LICENSE-MIT"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hm8/hmb/blob/master/LICENSE-MIT"
+    }
+  ],
   "bin": {
     "hmb": "bin/hmb"
   },

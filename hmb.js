@@ -22,6 +22,9 @@ fis.config.merge({
 	},
 	roadmap: {
 		path: [{
+			reg: '**.swf',
+			release: '/static/flash$&'
+		}, {
 			//字体文件
 			reg: /\/fonts\/(.*\.(?:eot|svg|ttf|woff))/i,
 			useHash: false,
